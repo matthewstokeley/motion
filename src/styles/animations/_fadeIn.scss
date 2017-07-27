@@ -1,0 +1,85 @@
+@mixin slideUp($margin) {
+    @keyframes slideUp
+    {
+        0% {
+            margin-top: 0;
+        }
+
+        100% {
+            margin-top: $margin
+        }
+    }
+}
+
+@mixin slideDownFadeIn($distance, $end) {
+    @keyframes slideDownFadeIn
+    {
+        0% {
+            margin-top: $distance;
+            opacity: 0;
+            z-index: -999;
+        }
+
+        100% {
+            margin-top: $end;
+            opacity: 1;
+            z-index: 1;
+        }
+    }
+}
+
+@keyframes fadeRight
+{
+    0% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        margin-top: 25px;
+    }  
+}
+
+@keyframes fadeOut
+{
+    0% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn
+{
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes circle
+{
+    0%
+    {
+        -webkit-transform: rotate(0);
+            -ms-transform: rotate(0);
+             -o-transform: rotate(0);
+                transform: rotate(0);
+    }
+    100%
+    {
+        -webkit-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+             -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,62 @@
+/*************************************************
+ * Table of Contents
+ *
+ * 1. Global Settings
+ * 2. Typography
+ * 		- Body
+ * 		- Headers
+ * 3. Colors
+ * 4  Design Accents
+ * 5. Layout
+ *      - Css Grids
+ * 		- Media Queries
+ * 		- Grid
+ * 		- Columns
+ * 		- width
+ * 6.  Vendor Settings
+ * 
+ */
+
+/*************************************************
+ * Timing Functions
+ */
+
+$keywords: (
+	ease: 'ease',
+	ease-in: 'ease-in',
+	ease-out: 'ease-out',
+	ease-in-out: 'ease-in-out',
+	linear: 'linear', 
+	step-start: 'step-start',
+	step-end: 'step-end'
+);
+
+$easingSettings: (
+);
+
+$duration: (
+);
+
+$delay: (
+);
+
+@mixin transition() {
+	
+}
+
+@mixin steps() {
+
+}
+
+@mixin cubicBezier() {
+
+}
+
+@mixin frames() {
+
+}
+
+
+/*************************************************
+ * Transition Timing
+ */

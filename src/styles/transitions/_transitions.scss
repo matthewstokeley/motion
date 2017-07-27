@@ -1,0 +1,5 @@
+@mixin transition($property: 'all', $length: '0.8s')  {
+	.transition {
+	   // transition: all 0.8s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+	}
+}
